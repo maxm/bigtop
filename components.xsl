@@ -191,7 +191,7 @@
 				<xsl:apply-templates><xsl:with-param name="machine" select="$machine"/></xsl:apply-templates>
 			</div>
 			<xsl:if test="$component = 'machine'">
-				<div style="clear:both"/><div style="font-size:x-small; text-align:right"><a href="http://{$SITEDOMAIN}/{$APPNAME}" target="_blank">PCjs Simulator</a> v<xsl:value-of select="$APPVER"/> © 2012-2013 by <a href="http://twitter.com/jeffpar" target="_blank">@jeffpar</a></div>
+				<div style="clear:both"/><div style="font-size:x-small; text-align:right">PRESS 2 to start. Jump with SPACE, crouch with ENTER, stop with NUMERIC PAD 5. Hosted by <a href="http://max.uy">max.uy</a><br/><br/><a href="http://{$SITEDOMAIN}/{$APPNAME}" target="_blank">PCjs Simulator</a> v<xsl:value-of select="$APPVER"/> © 2012-2013 by <a href="http://twitter.com/jeffpar" target="_blank">@jeffpar</a></div>
 			</xsl:if>
 		</div>
 	</xsl:template>
